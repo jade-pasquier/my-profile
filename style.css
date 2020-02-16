@@ -1,0 +1,52 @@
+body {
+	background: #E2E2E2;
+	font-family: Lora, Serif;
+	color : rgba (50, 50, 50);
+	font-size: 15px;
+
+}
+h1, h2, h3 {
+	font-family: Helvetica;
+	color: #DB9065;
+	font-size : 19px;
+}
+div{
+	background: white
+	border: 2px;
+	margin: 10px;
+}
+.img-circle{
+	border-radius: 50%;
+	border: 10px red;
+	width: 200px;
+
+}
+
+.container { 
+	width: 700px;
+	margin: 20px auto;
+	background-color: white;
+	border-radius: 4px;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	text-align: center;
+
+
+
+ }
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
